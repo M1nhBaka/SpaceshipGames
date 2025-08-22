@@ -1,6 +1,10 @@
 #include<iostream>
-
+#include<SFML/Graphics.hpp>
+#include<memory>
+#include "framework/Application.h"
 int main()
 {
-	std::cout << "Hello world";
+	ly::Application* app = new ly::Application();
+	app->Run();
+	
 }
